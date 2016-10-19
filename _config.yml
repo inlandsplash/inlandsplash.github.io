@@ -12,7 +12,7 @@ kramdown:
   auto_ids: false
 
 # Theme Info
-theme: &inland_splash
+style: &inland_splash
   name: "Inland Splash"
   description: "Jekyll theme built with Zurb Foundation 5 responsive framework."
   author: 
@@ -46,7 +46,7 @@ theme: &inland_splash
 
 # Longmans framework globals
 ## Jekyll options
-layouts: *longmans_lay
+layouts_dir: *longmans_lay
 sass: 
   sass_dir: _includes/longmans/bower_components/foundation/scss
  #  style: :nested # for dev
